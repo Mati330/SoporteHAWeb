@@ -1,0 +1,1 @@
+web: gunicorn --chdir SoporteHAWebapp SoporteHAWebapp.wsgi:application --log-file - --log-level debug
