@@ -1,1 +1,2 @@
-web: gunicorn --chdir SoporteHAWebapp SoporteHAWebapp.wsgi:application --log-file - --log-level debug
+release: python manage.py migrate
+web: gunicorn SoporteHAWeb.wsgi
