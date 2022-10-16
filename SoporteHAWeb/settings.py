@@ -49,6 +49,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ckeditor',
+    
+    #render
+    'render.apps.RenderConfig',    
     #mi app
     'SoporteHAWebapp',
     
