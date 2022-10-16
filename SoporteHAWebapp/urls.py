@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.urls import path, include
 from .views import * # si ponemos .views importa todo lo de la carpeta 
 from django.conf.urls.static import static
-from django.conf import settingsfrom
+
 
 urlpatterns = [
    
